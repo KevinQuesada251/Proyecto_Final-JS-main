@@ -15,7 +15,7 @@ function devuelveDia(dia) {
         case 7:
             return "Domingo"
         default:
-            return "Fuera del rango"
+            return "Dia no existe"
     }
 }
 export {devuelveDia}
