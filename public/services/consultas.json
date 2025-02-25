@@ -1,0 +1,40 @@
+{
+  "usuarios": [
+    {
+      "id": "12",
+      "nombre": "Pepe",
+      "contrasena": "hola12"
+    }
+  ],
+  "consultas": [
+    {
+      "id": 0,
+      "nombreConsulta": "abc",
+      "IdUsuario": "12"
+    },
+    {
+      "0": "hola",
+      "id": "dfe6"
+    },
+    {
+      "0": "pedo",
+      "id": "25b4"
+    },
+    {
+      "0": "Mucho ruido hace Kiany",
+      "id": "f81a"
+    },
+    {
+      "0": "pipi",
+      "id": "9770"
+    },
+    {
+      "id": "de44",
+      "consulta": "Mucho ruido hace KianyA"
+    },
+    {
+      "id": "612b",
+      "consulta": "no entiendo nada"
+    }
+  ]
+}
