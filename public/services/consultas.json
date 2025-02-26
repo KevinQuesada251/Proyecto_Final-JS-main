@@ -1,40 +1,147 @@
 {
   "usuarios": [
     {
-      "id": "12",
+      "id": "1",
+      "nombre": "Kevin",
+      "rol": "admin",
+      "contrasena": "hola1"
+    },
+    {
+      "id": "13",
+      "nombre": "Manuel",
+      "contrasena": "hola13"
+    },
+    {
+      "id": "14",
       "nombre": "Pepe",
-      "contrasena": "hola12"
+      "contrasena": "hola14"
+    },
+    {
+      "id": "15",
+      "nombre": "Jose",
+      "contrasena": "hola15"
     }
   ],
   "consultas": [
     {
-      "id": 0,
-      "nombreConsulta": "abc",
-      "IdUsuario": "12"
+      "id": "9ced",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "dad",
+      "hora-consulta": "13:36",
+      "dia-consulta": "Miércoles/2/2025"
     },
     {
-      "0": "hola",
-      "id": "dfe6"
+      "id": "409b",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "dad",
+      "hora-consulta": "13:38",
+      "dia-consulta": "Miércoles/2/2025"
     },
     {
-      "0": "pedo",
-      "id": "25b4"
+      "id": "7d3a",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "dad",
+      "hora-consulta": "13:39",
+      "dia-consulta": "Miércoles/2/2025"
     },
     {
-      "0": "Mucho ruido hace Kiany",
-      "id": "f81a"
+      "id": "5d59",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "dad",
+      "hora-consulta": "13:40",
+      "dia-consulta": "Miércoles/2/2025"
     },
     {
-      "0": "pipi",
-      "id": "9770"
+      "id": "f9cb",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "dad",
+      "hora-consulta": "13:41",
+      "dia-consulta": "Miércoles/2/2025"
     },
     {
-      "id": "de44",
-      "consulta": "Mucho ruido hace KianyA"
+      "id": "7f2c",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "probando consulta",
+      "hora-consulta": "13:41",
+      "dia-consulta": "Miércoles/2/2025"
     },
     {
-      "id": "612b",
-      "consulta": "no entiendo nada"
+      "id": "e0e1",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "dadaioj",
+      "hora-consulta": "13:44",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "7e6d",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "dad",
+      "hora-consulta": "13:46",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "b9c4",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "eqeqe",
+      "hora-consulta": "14:31",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "1159",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "dad",
+      "hora-consulta": "14:37",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "4f68",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "da",
+      "hora-consulta": "14:41",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "04df",
+      "idUsuario": "1",
+      "nombreUsuario": "Kevin",
+      "consulta": "hola universo",
+      "hora-consulta": "14:49",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "84d6",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "pipi",
+      "hora-consulta": "14:49",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "7026",
+      "idUsuario": "15",
+      "nombreUsuario": "Jose",
+      "consulta": "",
+      "hora-consulta": "14:57",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "d52a",
+      "idUsuario": "13",
+      "nombreUsuario": "Manuel",
+      "consulta": "holaaaaa",
+      "hora-consulta": "15:34",
+      "dia-consulta": "Miércoles/2/2025"
     }
   ]
 }
