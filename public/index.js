@@ -12,9 +12,7 @@ async function ingresar() {
     datosUsuarios.forEach(item => {
        console.log(item);
        btnIngresar.addEventListener("click", async function () {
-
           if (item.id ===  usuario.value &&  item.contrasena === contrasena.value && item.rol != "admin") {
-
             Swal.fire({
               title: "Usuario y Contraseña correctos!",
               icon: "success",
@@ -25,7 +23,7 @@ async function ingresar() {
             setTimeout(() => {
               window.location.href= "consultas.html"
             }, 2000);
-  
+            return
          }else if (item.id ===  usuario.value &&  item.contrasena === contrasena.value && item.rol === "admin") {
           Swal.fire({
             title: "Usuario y Contraseña correctos!",
@@ -35,9 +33,15 @@ async function ingresar() {
           setTimeout(() => {
             window.location.href= "admin.html"
           }, 2000);
+          return
          }else {
-          console.log("incorrecto");
-          
+          console.log("mal");
+          Swal.fire({
+            title: "Usuario y Contraseña incorrectos!",
+            icon: "error",
+            draggable: true
+          });
+          return
         }
        })
       
